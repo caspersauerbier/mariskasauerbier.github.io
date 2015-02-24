@@ -1,0 +1,344 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('Avenir.woff') format('woff'), 
+       url('Avenir.ttf')  format('truetype');
+}
+
+body 
+{
+  margin: 0;
+  padding: 0;
+  background: rgba(255,255,255,0.9);
+  min-width: 850px;
+  width: 850px;
+  width: auto !important;
+}
+
+/* float clearing for IE6 */
+* html .nav{
+  height: 1%;
+  overflow: visible;
+}
+ 
+/* float clearing for IE7 */
+*+html .nav{
+  min-height: 1%;
+}
+ 
+/* float clearing for everyone else */
+.nav:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+#cd-logo {
+  display: inline-block;
+  float: left;
+  margin: 12px 0 0 20px;
+}
+#cd-logo img {
+  display: inline-block;
+}
+ 
+.nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  
+
+
+  }
+
+.nav li {
+ font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 70px;
+  height: 70px;
+  border-bottom: 1px solid #888;
+  }
+
+.nav a {
+  text-decoration: none;
+  color: #bdbdbd;
+  display: block;
+  
+}
+ 
+.nav a:hover {
+  color: #000;
+  transition: 0.66s;
+}
+
+
+  .nav li {
+    width: 100px;
+    border-bottom: none;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.1em;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+    
+
+  }
+
+.image  { 
+  background: url(https://dl.dropboxusercontent.com/s/hey6ym7nbytfavp/zelf%204.png?dl=0) no-repeat center top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+  color: #9FB6A6;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+h2 {
+  color: #bdbdbd;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+h2:hover {
+  color: #000;
+  transition: 0.66s;
+}
+
+
+h3 {
+  color: #9FB6A6;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h3:hover {
+  color: #000;
+  transition: 0.66s;
+}
+
+h4 {
+  color: #bdbdbd;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+h4:hover {
+  color: #000;
+  transition: 0.66s;
+}
+
+h5 {
+  color: #9FB6A6;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 2em;
+}
+
+p {
+  color: #bdbdbd;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  max-width: 900px;
+  width: 80%;
+}
+
+td {
+  color: #9b9b9b;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  text-align: left;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+background-color:#ccc;
+border-width:0;
+color:#ccc;
+height:1px;
+line-height:0;
+margin:-.5em 10px 1.8571em 10px;
+page-break-after:always;
+text-align:center;
+width:699px;
+}
+
+::-moz-selection {
+    background: #fff;
+    color: #000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #fff;
+    color: #000;
+    text-shadow: none;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+
+.fotos1:hover h3{
+  color: #000;
+  transition: 0.66s;
+}
+
+.fotos2:hover h3{
+  color: #000;
+  transition: 0.66s;
+}
+
+.fotos3:hover h3{
+  color: #000;
+  transition: 0.66s;
+}
+
+.fotos4:hover h3{
+  color: #000;
+  transition: 0.66s;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+}
+.centered {
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  padding: 30px 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+ul.grid-nav {
+  list-style: none;
+  
+  text-align: center;
+}
+ul.grid-nav li {
+  display: inline-block;
+}
+ul.grid-nav li a {
+  display: inline-block;
+  background: #999;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+ul.grid-nav li a:hover {
+  background: #7b0;
+}
+ul.grid-nav li a.active {
+  background: #333;
+}
+.grid-container {
+  display: none;
+}
+/* ----- Image grids ----- */
+ul.rig {
+  list-style: none;
+  font-size: 0px;
+  margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 2.5% 2.5%;
+  background: #fff;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+ul.rig li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+ul.rig li h3 {
+  margin: 0 0 5px;
+}
+ul.rig li p {
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+  width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+  width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+  width: 22.5%; /* this value + 2.5 should = 25% */
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: auto;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  ul.grid-nav li {
+    display: block;
+    margin: 0 0 5px;
+  }
+  ul.grid-nav li a {
+    display: block;
+  }
+  ul.rig {
+    margin-left: 0;
+  }
+  ul.rig li {
+    width: 100% !important; /* over-ride all li styles */
+    margin: 0 0 20px;
+  }
+}
+
+
+table {
+  width: 80%;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  max-width: 600px;
+  
+}
+

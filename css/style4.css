@@ -1,0 +1,356 @@
+/* Overlay style */
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.9);
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	background: url(https://dl.dropboxusercontent.com/s/72h0aaamj7gj56i/cross.png?dl=0) no-repeat center center;
+	background-size: 30px;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+
+
+/* Menu style */
+.overlay nav {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	height: 60%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+}
+
+.overlay ul li {
+	display: block;
+	height: 20%;
+	height: calc(100% / 5);
+	min-height: 54px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.overlay ul li a {
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	line-height: 1em;
+	font-weight: 400;
+	display: block;
+	color: #9FB6A6;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+	color: #000;
+}
+
+/* Effects */
+.overlay-slidedown {
+	visibility: hidden;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
+	transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+}
+
+.overlay-slidedown.open {
+	visibility: visible;
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+}
+
+@media screen and (max-height: 30.5em) {
+	.overlay nav {
+		height: 70%;
+		font-size: 34px;
+	}
+	.overlay ul li {
+		min-height: 34px;
+	}
+}
+
+body 
+{
+  margin: 0;
+  padding: 0;
+  background: rgba(255,255,255,0.9);
+}
+
+/* float clearing for IE6 */
+* html .nav{
+  height: 1%;
+  overflow: visible;
+}
+ 
+/* float clearing for IE7 */
+*+html .nav{
+  min-height: 1%;
+}
+ 
+/* float clearing for everyone else */
+.nav:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+#cd-logo {
+  display: inline-block;
+  float: left;
+  margin: 12px 0 0 20px;
+}
+#cd-logo img {
+  display: inline-block;
+}
+ 
+
+
+.image { 
+
+}
+
+h1 {
+  color: #9FB6A6;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+h2 {
+  color: #bdbdbd;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+h2:hover {
+  color: #000;
+  transition: 0.66s;
+}
+
+
+h3 {
+  color: #9FB6A6;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h3:hover {
+  color: #000;
+  transition: 0.66s;
+}
+
+h4 {
+  color: #bdbdbd;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+h4:hover {
+  color: #000;
+  transition: 0.66s;
+}
+
+h5 {
+  color: #9FB6A6;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+
+p {
+  color: #bdbdbd;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  max-width: 900px;
+  width: 85%;
+}
+
+td {
+  color: #9b9b9b;
+  font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  
+}
+
+a {
+  text-decoration: none;
+
+}
+
+hr {
+background-color:#ccc;
+border-width:0;
+color:#ccc;
+height:1px;
+line-height:0;
+margin:-.5em 10px 1.8571em 10px;
+page-break-after:always;
+text-align:center;
+width:80%;
+}
+
+.right {
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+}
+.centered {
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  padding: 30px 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+ul.grid-nav {
+  list-style: none;
+  
+  text-align: center;
+}
+ul.grid-nav li {
+  display: inline-block;
+}
+ul.grid-nav li a {
+  display: inline-block;
+  background: #999;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+ul.grid-nav li a:hover {
+  background: #7b0;
+}
+ul.grid-nav li a.active {
+  background: #333;
+}
+.grid-container {
+  display: none;
+}
+/* ----- Image grids ----- */
+ul.rig {
+  list-style: none;
+  font-size: 0px;
+  margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 2.5% 2.5%;
+  background: #fff;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+ul.rig li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+ul.rig li h3 {
+  margin: 0 0 5px;
+}
+ul.rig li p {
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+  width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+  width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+  width: 22.5%; /* this value + 2.5 should = 25% */
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: auto;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  ul.grid-nav li {
+    display: block;
+    margin: 0 0 5px;
+  }
+  ul.grid-nav li a {
+    display: block;
+  }
+  ul.rig {
+    margin-left: 0;
+  }
+  ul.rig li {
+    width: 100% !important; /* over-ride all li styles */
+    margin: 0 0 20px;
+  }
+}
+
+
+table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  max-width: 555px;
+  
+}
+
