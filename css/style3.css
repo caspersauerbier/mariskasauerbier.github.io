@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('Avenir.woff') format('woff'), 
+       url('Avenir.ttf')  format('truetype');
+}
+
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
 /* Overlay style */
 .overlay {
 	position: fixed;
@@ -90,10 +100,10 @@
 @media screen and (max-height: 30.5em) {
 	.overlay nav {
 		height: 70%;
-		font-size: 34px;
+		font-size: 20px;
 	}
 	.overlay ul li {
-		min-height: 34px;
+		min-height: 20px;
 	}
 }
 
@@ -224,6 +234,7 @@ margin:-.5em 10px 1.8571em 10px;
 page-break-after:always;
 text-align:center;
 width:80%;
+margin: auto;
 }
 
 .right {

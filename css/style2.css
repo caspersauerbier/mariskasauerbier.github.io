@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('Avenir.woff') format('woff'), 
+       url('Avenir.ttf')  format('truetype');
+}
+
 html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
@@ -191,7 +197,7 @@ h4:hover {
 h5 {
   color: #9FB6A6;
   font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 400;
   line-height: 2em;
 }
@@ -228,6 +234,7 @@ margin:-.5em 10px 1.8571em 10px;
 page-break-after:always;
 text-align:center;
 width:300px;
+margin: auto;
 }
 
 .right {
