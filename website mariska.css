@@ -184,6 +184,7 @@ margin:-.5em 10px 1.8571em 10px;
 page-break-after:always;
 text-align:center;
 width:699px;
+margin: auto;
 }
 
 ::-moz-selection {
