@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('Avenir.woff') format('woff'), 
+       url('Avenir.ttf')  format('truetype');
+}
+
 p {
   color: #bdbdbd;
   font-family: Avenir, Avenir Next, Helvetica, Arial, sans-serif;
